@@ -1,0 +1,20 @@
+.markup-eYLPri blockquote, .markup-eYLPri pre > code{
+max-height:150px; /*Change this to your height preference.*/
+overflow-x: hidden;
+overflow-y:scroll;
+}
+.markup-eYLPri blockquote::-webkit-scrollbar, .markup-eYLPri pre > code::-webkit-scrollbar {
+width: 15px;
+height: 15px;
+}
+.markup-eYLPri blockquote::-webkit-scrollbar-track , .markup-eYLPri pre > code::-webkit-scrollbar-track {
+border-radius: 10px;
+background-color: rgba(255 255 255 / 8%);/*Change this to your color choice or just remove it entirely.*/
+}
+.markup-eYLPri blockquote::-webkit-scrollbar-thumb, .markup-eYLPri pre > code::-webkit-scrollbar-thumb {
+background-color: rgb(13 81 239 / 70%); /*Change this to your color choice or just remove it entirely.*/
+border-radius: 10px;
+}
+.markup-eYLPri blockquote, .markup-eYLPri pre > code {
+max-width: 629px;
+}
