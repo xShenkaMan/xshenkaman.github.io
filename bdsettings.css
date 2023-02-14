@@ -1,0 +1,3 @@
+.side-2ur1Qk>:where(.bd-sidebar-header,.bd-settings-tab,.bd-customcss-tab,.bd-plugins-tab,.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,:where(.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,.bd-customcss-tab)+.separator-2wx7h6){
+  order: -1;
+}
